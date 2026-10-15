@@ -58,20 +58,38 @@ Corrected wording:
 
 > **100 or fewer full-time-equivalent employees**, with **at least one employee who receives a W-2**
 
-### 3. `03-enrollment-and-eligibility/major-life-changes.md` — the summary table understates the list of qualifying events
+### 3. `03-enrollment-and-eligibility/major-life-changes.md` — the summary table omits the birth/adoption/foster row
 
-The library's table has five rows, collapsing "Common events" into a parenthetical. The live page publishes **thirteen** distinct qualifying events in a three-column table (event / how long you have to act / coverage start). The library's body text does cover most of them, but the table — the part a consumer would scan — is materially narrower than the source.
+> **CORRECTED 2026-10-14. My finding here was partly wrong.** I originally wrote that the live page publishes "**thirteen** distinct qualifying events in a three-column table." Re-parsed from the raw SSR markup on 2026-10-14, the deadline table has **six** rows, not thirteen. I had conflated two separate page structures:
+>
+> 1. **A six-row deadline table** (`Situation` / `When to Act` / `What to Consider`), and
+> 2. **Untimed category card lists** ("Lost or Will Lose Health Insurance", "Family or Household Changes", "Moved to or Within California", "Status Changes", "Special Situations", "Changes to Existing Enrollment"), which enumerate the full set of qualifying events with no deadlines attached.
+>
+> The ~13–14 event names I listed below come from structure (2), not from the table. My structural claim was wrong; my substantive point below still stands and was worse than I described.
 
-Current table rows in the file: `Qualifying event` / `Common events (marriage, birth, adoption, divorce, death in household, status changes)` / `Lost health insurance through your job` / `Lost Medi-Cal coverage` / `Moved to California from another state, or moved within California and plan options changed` / `Were released from jail or prison`.
+The library's table had five rows and collapsed birth/adoption/foster into a parenthetical catch-all. **The real defect is that the sixth row — "Birth, adoption or foster placement" — was missing entirely**, and it carries a coverage-start rule that differs from every other row:
 
-The live page's thirteen events are: Got married or entered a domestic partnership; Had a baby, adopted a child or began foster care; Got divorced or legally separated; Had a death in the household that affects coverage; Moved to California from another state; Moved within California and plan options changed; Gained citizenship, national status or lawful presence; Lost insurance after military service; Lost insurance tied to military service; Experienced domestic abuse or spousal abandonment; Were released from jail or prison; Are a federally recognized American Indian or Alaska Native member; Lost financial help after an income change; Lost financial help after a household change.
+| Situation | When to Act | What to Consider |
+| --- | --- | --- |
+| Marriage, divorce, domestic partnership or a death in your household | Within 60 days of the event | Coverage typically starts the first of the month after you choose a plan |
+| Lost job-based insurance | 60 days before or after your coverage ends to apply | Apply before insurance ends to avoid a gap |
+| Lost Medi-Cal coverage | Within 90 days of your Medi-Cal ending | Covered California may automatically select a plan for you |
+| Moved to or within California | Within 60 days of moving. You may be able to report your move before it happens. | Coverage start date may depend on your move date |
+| Released from jail or prison | Within 60 days of your release | Coverage typically starts the first of the month after your release date or plan selection, whichever is later |
+| **Birth, adoption or foster placement** | **Within 60 days of the event** | **Coverage start options may vary; Covered California will show your date after you apply** |
+
+Merging the birth row into the marriage/divorce row wrongly told a reader that a new baby's coverage "typically starts the first of the month after you choose a plan." The source explicitly declines to promise that for a birth. The library also added "status changes" to the catch-all label, which does not appear in the deadline table at all.
+
+**Fixed in `major-life-changes.md` on 2026-10-14** — the table is now the source's six rows verbatim, and the "Pregnancy vs. having a baby" section now warns that a birth's coverage-start date is not guaranteed to follow the first-of-the-month pattern.
+
+The full set of qualifying events published in the category lists (structure 2), for completeness — these carry **no individual deadlines** and fall under the general 60-day rule:
 
 The two most consequential additions, because a reader would not think to look for them:
 
-- **Lost financial help after an income change** and **lost financial help after a household change** — these open an SEP on their own, not only a change in the underlying job-based coverage.
+- **Lost financial help after an income change** and **lost financial help after a household change** — these appear in the category lists and open an SEP on their own, not only alongside a change in underlying job-based coverage.
 - **Are a federally recognized American Indian or Alaska Native member** — an eligibility category, not a change event, that the source nonetheless lists as qualifying.
 
-Recommended corrected table: expand to the full thirteen rows. If the five-row summary is kept for readability, retitle it "Selected qualifying events (full list on the live page)" so it does not read as exhaustive.
+**What was actually done (2026-10-14):** `major-life-changes.md` was **not** expanded to thirteen rows — that would have been wrong, since the source table has six. It was corrected to the source's **six rows verbatim**, the missing birth/adoption/foster row restored with its distinct coverage-start rule, and the invented "status changes" label removed from the catch-all row. The separate category lists in the library were already accurate.
 
 ## Claims I could NOT verify and why
 

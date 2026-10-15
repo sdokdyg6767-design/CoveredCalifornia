@@ -71,6 +71,12 @@ Four errors were found and have been **corrected in place**:
 
 One suspected error was **checked and rejected**: an audit agent recommended striking the "adults 19+ lost full Medi-Cal on Jan 1, 2026" claim as unsupported. Re-fetching the live page confirmed Covered California states it verbatim. The confusion came from conflating that **state** change with the **federal** Medicaid work-requirement in P.L. 119-21 (SEC. 71119), which begins no later than **April 1, 2027**. `03-enrollment-and-eligibility/immigrants.md` now carries an explicit three-date table separating them.
 
+A third round (2026-10-14), prompted by a question about pregnancy, found that **the audit itself had been wrong in the other direction** — and that fixing it exposed a real defect:
+
+- `10-verification-audit/verify-enrollment-and-eligibility.md` claimed the live SEP deadline table has *"thirteen distinct qualifying events."* Re-parsed from raw markup, it has **six** rows. The audit had conflated the deadline table with the separate untimed category card lists.
+- Following through on that correction revealed the library had **dropped a whole table row: "Birth, adoption or foster placement."** It had been folded into a catch-all row whose coverage-start rule ("typically starts the first of the month after you choose a plan") **does not apply to a birth**. The source gives births their own rule: "Coverage start options may vary; Covered California will show your date after you apply."
+- `03-enrollment-and-eligibility/major-life-changes.md` now reproduces the source's six rows verbatim, and both it and `01-coverage-and-plans/pregnant-individuals.md` warn that a newborn's coverage start date is not guaranteed to follow the first-of-the-month pattern.
+
 Known limits of the audit: independent corroboration outside coveredca.com largely failed from this environment (DMHC, CBO, GAO and several other federal/state sites are bot-blocked — see [Known Gaps](#-known-gaps)). Several high-stakes figures therefore rest on coveredca.com alone.
 
 ### Second pass — folder 09 independently re-derived

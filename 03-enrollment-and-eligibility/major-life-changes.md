@@ -6,7 +6,7 @@
 
 ## Summary
 
-A major life change — also called a qualifying life event — lets you enroll in a Covered California plan or change your current plan outside open enrollment, through a special-enrollment period. The standard window is 60 days, though losing Medi-Cal gives 90 days and some events permit applying before they happen. The page lists the qualifying events across five categories and gives a separate deadline for each one.
+A major life change — also called a qualifying life event — lets you enroll in a Covered California plan or change your current plan outside open enrollment, through a special-enrollment period. The standard window is 60 days, though losing Medi-Cal gives 90 days and some events permit applying before they happen. The page publishes a **six-row deadline table**, and separately lists the full set of qualifying events as untimed category lists.
 
 ## Key Facts
 
@@ -28,13 +28,20 @@ A major life change — also called a **qualifying life event** — lets you enr
 
 ### How long you have to act
 
-| Qualifying event | Deadline | Notes |
+The source page publishes a **six-row** deadline table. Reproduced exactly, including the per-row coverage-start guidance:
+
+| Situation | When to Act | What to Consider |
 | --- | --- | --- |
-| Common events (marriage, birth, adoption, divorce, death in household, status changes) | **Within 60 days** of the event | Coverage typically starts the first of the month after you choose a plan |
-| Lost health insurance through your job | **60 days before or after** your coverage ends to apply | Apply before insurance ends to avoid a gap |
+| Marriage, divorce, domestic partnership or a death in your household | **Within 60 days of the event** | Coverage typically starts the first of the month after you choose a plan |
+| Lost job-based insurance | **60 days before or after** your coverage ends to apply | Apply before insurance ends to avoid a gap |
 | Lost Medi-Cal coverage | **Within 90 days** of your Medi-Cal ending | Covered California may automatically select a plan for you |
-| Moved to California from another state, or moved within California and plan options changed | **Within 60 days** of moving | You may be able to report your move before it happens; coverage start date may depend on your move date |
-| Were released from jail or prison | **Within 60 days** of your release | Coverage typically starts the first of the month after your release date or plan selection, whichever is later |
+| Moved to or within California | **Within 60 days** of moving. You may be able to report your move before it happens. | Coverage start date may depend on your move date |
+| Released from jail or prison | **Within 60 days** of your release | Coverage typically starts the first of the month after your release date or plan selection, whichever is later |
+| **Birth, adoption or foster placement** | **Within 60 days of the event** | **Coverage start options may vary; Covered California will show your date after you apply** |
+
+> **Correction (2026-10-14).** An earlier version of this table had **five** rows and folded birth/adoption/foster into a single catch-all row labelled *"Common events (marriage, birth, adoption, divorce, death in household, status changes)"*. That was wrong on two counts: the source table has **six** rows, and **"Birth, adoption or foster placement" is its own row with its own coverage-start rule** — "Coverage start options may vary; Covered California will show your date after you apply" — which is *not* the same as the "first of the month after you choose a plan" rule that applies to the marriage/divorce row. The earlier table also added "status changes", which does not appear in the deadline table at all.
+>
+> **Correction to the audit that prompted this fix:** `10-verification-audit/verify-enrollment-and-eligibility.md` states the live page publishes *"thirteen distinct qualifying events in a three-column table."* That is incorrect. The deadline table has **six** rows. The full list of qualifying events is published separately, as untimed category card lists — which is where the ~13–14 event names come from. The two structures were conflated.
 
 For some events — such as losing job-based coverage or moving — you may be able to apply **before** the event happens, which can help you avoid a gap in coverage. The application will ask for the date of your life change.
 
@@ -86,6 +93,13 @@ For some events — such as losing job-based coverage or moving — you may be a
 ### Pregnancy vs. having a baby
 
 Pregnancy alone may not qualify you for a Covered California health insurance plan outside open enrollment. However, you can still apply at any time to see if you qualify for Medi-Cal, the Medi-Cal Access Program (MCAP), or another program. Having a baby, adopting a child, or beginning foster care **is** a qualifying major life change.
+
+**"Birth, adoption or foster placement" is its own row in the deadline table**, separate from the marriage/divorce/death row:
+
+- **When to act:** within **60 days** of the event.
+- **Coverage start:** "Coverage start options may vary; Covered California will show your date after you apply."
+
+That coverage-start rule is **not** the same as the marriage/divorce row, where coverage "typically starts the first of the month after you choose a plan." For a birth, do not assume a first-of-the-month start date — read the date Covered California shows you after you apply.
 
 ### What to do next
 
