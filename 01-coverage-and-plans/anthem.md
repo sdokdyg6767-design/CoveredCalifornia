@@ -1,0 +1,54 @@
+# Anthem
+
+- **Source URL:** https://www.coveredca.com/anthem
+- **Covered California section:** Carrier
+- **Retrieved:** 2026-10-13
+
+## Summary
+
+The Anthem carrier page on Covered California is a short marketing and enrollment page rather than a plan-detail page. It uses the site's standard carrier template: a tagline, the standard list of benefits included in every Covered California plan, guidance for people who already have the carrier's plan, a list of documents needed to apply, and three ways to enroll. The page contains no plan counts, premium figures, metal-tier availability, or service-area list; those are only available through Shop and Compare.
+
+## Key Facts
+
+- Tagline on the page: "Trusted Plans. Exclusive Savings."
+- Page statement: "Enrolling in an Anthem plan through Covered California could help you save on your health coverage costs."
+- Benefits listed as "Included in Every Plan": Free Annual Wellness Exam; Pre-existing Condition Coverage; Mental Health Care; Prescription Drug Coverage; ER and Hospitalization Coverage; Maternity and Newborn Care; Free Cancer Screenings; Option to Add Dental and Vision.
+- Switching guidance: "Cancel your current plan after enrolling through Covered California."
+- "In most cases, your accumulated deductible and out-of-pocket maximum will carry over, but you should confirm with Anthem before you switch."
+- What you'll need to apply: employer and income information for applicants who earn money; Social Security Numbers for applicants who have them; federal tax information for applicants who file taxes; immigration documents for non-citizens.
+- Enrollment: apply online in about 30 minutes, apply with a certified enroller, or apply by phone. "There are several ways to apply. Each option is free and confidential."
+- Covered California Service Center: (800) 300-1506; TTY (888) 889-4500. Monday to Friday 8 a.m. to 6 p.m.; closed weekends.
+
+## Details
+
+### Included in Every Plan
+
+- Free Annual Wellness Exam
+- Pre-existing Condition Coverage
+- Mental Health Care
+- Prescription Drug Coverage
+- ER and Hospitalization Coverage
+- Maternity and Newborn Care
+- Free Cancer Screenings
+- Option to Add Dental and Vision
+
+### Things to Consider
+
+"If you already have a Anthem plan: Cancel your current plan after enrolling through Covered California. In most cases, your accumulated deductible and out-of-pocket maximum will carry over, but you should confirm with Anthem before you switch. It helps to have your current plan details ready when shopping for a similar plan here."
+
+### What You'll Need to Apply
+
+- Employer and income information for applicants who earn money.
+- Social Security Numbers for applicants who have them.
+- Federal tax information for applicants who file taxes.
+- Immigration documents for non-citizens.
+
+### How to Apply
+
+- **Apply Online** — "The fastest way to enroll apply in about 30 minutes and save your progress anytime."
+- **Apply With a Certified Enroller** — "Find free in-person help from a certified enroller or agent near you, available in multiple languages."
+- **Apply by Phone** — "Speak with a Covered California representative by phone, available in multiple languages."
+
+### Data Availability Note
+
+This page does not publish Anthem plan counts, premium ranges, metal tier availability, county service regions, or a plan-level benefit grid. It is one of a set of 12 individual/family marketplace carrier pages that share an identical template. Plan-specific data must be obtained through Shop and Compare for the consumer's ZIP code.
