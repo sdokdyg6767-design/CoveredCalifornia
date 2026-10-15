@@ -56,10 +56,25 @@ Eligible employees and dependents may add a dental plan during the plan year if 
 
 ### Benefits, limitations and exclusions
 
-CCSB provides a summary of what dental services are covered by your plan and any restrictions or services that are not included. Review these before selecting or offering insurance.
+CCSB provides a summary of what dental services are covered by your plan and any restrictions or services that are not included. Review these before selecting or offering insurance so you and your employees know what to expect.
 
 | Year | Document |
 | --- | --- |
 | 2027 | Dental Benefits, Limitations, and Exclusions (PDF) |
 | 2026 | Dental Benefits, Limitations, and Exclusions (PDF) |
 | 2025 | Dental Benefits, Limitations, and Exclusions (PDF) |
+
+### Common questions
+
+The page publishes three questions. The indexed structure records the question headings; it does not carry the answer text, so no answers are transcribed here.
+
+- Can employees get dental insurance for their dependents?
+- Does my business have to contribute to dental premiums?
+- When can dental insurance be added?
+
+### Contact CCSB
+
+New Customers (844) 332-8384; Existing Customers (855) 777-6782. Service Center hours are Monday to Friday, 8 a.m. to 5 p.m.; closed Saturday and Sunday.
+
+> **Note (2026-10-13)**
+> An earlier version of this file ended at the Benefits, Limitations and Exclusions table and omitted the Common Questions block and the CCSB contact numbers and service hours, all of which are published on the page. An intermediate draft of this file removed the three-year document table and the "Benefits, Limitations and Exclusions" paragraph on the mistaken belief that they were absent; both were re-verified directly against the live page and restored. The site states the delta between them plainly, and neither removal was correct.

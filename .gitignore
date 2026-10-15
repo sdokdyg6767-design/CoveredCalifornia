@@ -1,18 +1,2 @@
-# OS / editor cruft
-.DS_Store
-Thumbs.db
-desktop.ini
-
-# Scratch and temporary artifacts
-*.tmp
-*.bak
-*.log
-*~
-_$*
-
-# Large scratch captures that should not be versioned
-# (kept the sitemap because it documents the source inventory)
-# _raw/*.html
-
-# Node, if tooling is ever added
-node_modules/
+__pycache__/
+*.pyc

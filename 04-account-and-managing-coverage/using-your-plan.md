@@ -13,6 +13,8 @@ This page walks an enrollee through the first steps after enrolling: paying the 
 - Every plan includes the **same essential health benefits**, covered **from day one**.
 - Pediatric care includes **dental and vision for children**; adult dental and vision are **not** included.
 - **Your plan starts once you pay your first bill** — pay your health insurance company, not Covered California.
+- **If your plan is canceled for non-payment, you'll owe the full cost of any care you received.**
+- "Next Steps: Get Ready to Use Your Plan" is published as four cards: **Make Your First Payment**, **Check Your Providers**, **Get Care**, and **Watch for Mail**.
 - Your plan begins the **first day of the month after you enroll and pay your first monthly premium**. Example: enrolling **Dec. 15** means coverage starts **Jan. 1**.
 - A major life change can produce a **faster start date** — a new baby's coverage can start on their **date of birth**.
 - Seeing an **out-of-network** provider can mean paying the **full cost** yourself; check your plan directory first.
@@ -106,7 +108,11 @@ If your new plan does not include your current doctor and you are being treated 
 
 ### Get Care Right Away
 
-You can get care as soon as your plan starts — you do **not** need to wait for your ID card. Just make sure your first payment has gone through.
+**Get Care** (card)
+
+- You can get care as soon as your plan starts — no need to wait for your ID card.
+- Just make sure your first payment is processed.
+- If your plan is canceled for non-payment, you'll owe the full cost of any care you received.
 
 ### Free Consumer Help
 

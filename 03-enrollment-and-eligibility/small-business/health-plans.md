@@ -11,11 +11,15 @@ CCSB offers health plans across all four metal coverage levels — Platinum, Gol
 ## Key Facts
 
 - Four coverage levels: **Platinum, Gold, Silver, Bronze**.
+- Four insurance companies are listed: **Blue Shield of California, Kaiser Permanente, Sharp Health Plan, Western Health Advantage**.
 - When offering **two or three tiers, the tiers must be adjacent** — next to each other in the tier sequence. Bronze and Silver qualify; **Bronze and Gold do not**.
 - Valid combinations: All four metal tiers (Bronze, Silver, Gold, Platinum); three touching tiers (Bronze/Silver/Gold or Silver/Gold/Platinum); two touching tiers (Bronze/Silver, Silver/Gold, Gold/Platinum); one tier of your choice.
 - Employers **must provide an annual written notice** to each Medicare-eligible employee explaining whether the company's prescription drug coverage is **creditable** (covers at least as much as standard Medicare Part D).
 - Plan and benefit summaries and network summaries are published for **2027, 2026 and 2025**.
 - Small businesses can enroll **year-round**.
+
+> **Note on two creditable-coverage wordings (2026-10-13)**
+> The page states the creditable-coverage obligation **twice**, in two different registers. The "What to Consider" section says a business with Medicare-eligible employees **"may be required to provide an annual written notice"** about whether its prescription drug coverage is creditable, meaning it meets Medicare Part D standards. The later "Creditable Coverage" section says **"Employers must provide an annual written notice to each Medicare-eligible employee"**, explaining that creditable coverage means it "covers at least as much as standard Medicare Part D," and adds that this helps employees decide whether to enroll in a separate Medicare drug plan. Both sentences are on the page and both are reproduced in this file. This is not a contradiction introduced here; it is the site's own wording in two sections.
 
 ## Details
 
@@ -36,12 +40,15 @@ When you offer health insurance through CCSB, your employees can choose from pla
 
 As the coverage level increases, plans generally cover a **higher share of medical costs** — and employees typically pay **more in monthly premiums**. As an employer, you control your contribution amount and can offer employees a range of tier options. The coverage levels organize plans by how costs are shared between the plan and the employee; higher tiers generally mean **lower out-of-pocket costs** for employees and **higher monthly premiums**.
 
-| Offering | Valid combinations |
-| --- | --- |
-| **All four metal tiers** | Bronze, Silver, Gold and Platinum |
-| **Three touching tiers** | Bronze, Silver and Gold; or Silver, Gold and Platinum |
-| **Two touching tiers** | Bronze and Silver; Silver and Gold; Gold and Platinum |
-| **One tier of your choice** | Bronze; Silver; Gold; Platinum |
+| Tiers Offered | What Employees Can Choose From | What You Can Offer |
+| --- | --- | --- |
+| 4 metal tiers | All four metal tiers | Bronze, Silver, Gold and Platinum |
+| 3 metal tiers | Three touching tiers | Bronze, Silver and Gold; or Silver, Gold and Platinum |
+| 2 metal tiers | Two touching tiers | Bronze and Silver; or Silver and Gold; or Gold and Platinum |
+| 1 metal tier | One tier of your choice | Bronze; or Silver; or Gold; or Platinum |
+
+> **Correction (2026-10-13)**
+> An earlier version of this file rendered the permitted tier combinations as a two-column table headed "Offering / Valid combinations". The page publishes a three-column table headed **Tiers Offered / What Employees Can Choose From / What You Can Offer**, where the left column counts the tiers offered ("4 metal tiers", "3 metal tiers", "2 metal tiers", "1 metal tier"). The row labels are corrected above; the combination values were already correct.
 
 **Important:** when offering two or three tiers, the tiers must be **adjacent**, meaning they must be next to each other in the tier sequence. For example, **Bronze and Silver qualify, but Bronze and Gold do not**.
 

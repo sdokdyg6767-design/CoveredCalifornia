@@ -18,6 +18,8 @@ This page explains how to create, access and update a Covered California account
 - TTY: **(888) 889-4500**.
 - If you have no access code, call (800) 300-1506 and a representative can generate one.
 - Password reset requires username and date of birth; a one-time passcode is sent.
+- To recover a forgotten username you enter your **email address and date of birth**, and the username is sent to your email.
+- **To unlock a locked account, call (800) 300-1506.**
 - Enrollers are added either by a representative authorization form or by calling (800) 300-1506.
 - You can cancel or limit an enroller's access in writing at any time.
 
@@ -43,6 +45,10 @@ This page explains how to create, access and update a Covered California account
 1. On the sign-in page, select **Forgot username?**
 2. Enter your email address and date of birth.
 3. Your username is sent to your email.
+
+**Account is locked**
+
+"Call us at (800) 300-1506 to unlock your account. We'll just need to confirm it's you first."
 
 If your account is locked, call **(800) 300-1506**. Covered California only needs to confirm your identity first.
 

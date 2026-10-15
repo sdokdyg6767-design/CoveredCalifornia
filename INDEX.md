@@ -153,7 +153,7 @@ Plan tiers, benefits, Medi-Cal, and carriers.
 | `children.md` | Medi-Cal for Children | CCHP 266–322% FPL (SF/SM/SC only) |
 | `pregnant-individuals.md` | Medi-Cal for Pregnancy | 1 year postpartum |
 | `mixed-program-families.md` | Mixed Program Families | Family members on different programs |
-| `anthem.md` · `blue-shield.md` · `cchp.md` · `caloptima.md` · `health-net.md` · `iehp.md` · `kaiser-permanente.md` · `la-care.md` · `molina-healthcare.md` · `sharp.md` · `valley-health.md` · `western-health-advantage.md` | 12 carrier pages | **These are content-free templates** on the live site. The only carrier-specific fact published anywhere is Molina's **2027 withdrawal from northeast LA and Orange County**. |
+| `anthem.md` · `blue-shield.md` · `cchp.md` · `caloptima.md` · `health-net.md` · `iehp.md` · `kaiser-permanente.md` · `la-care.md` · `molina-healthcare.md` · `sharp.md` · `valley-health.md` · `western-health-advantage.md` | 12 carrier pages | These pages **do carry real content**, but it is marketing and enrollment content, not plan data. Each publishes two card groups — carrier-specific guidance for existing members ("If you already have a X Plan") and an application document checklist — plus a benefits list and three enrollment channels. What they do **not** publish anywhere: plan counts, premium figures, metal-tier availability, or county service-region lists. The only carrier-specific *news* item is Molina's **2027 withdrawal from northeast LA and Orange County**. |
 
 ### 02 — Costs & Financial Help (6)
 
@@ -323,7 +323,7 @@ coveredca.com is not the whole picture. These are the primary sources a serious 
 
 Honest limitations in this library, so you don't mistake absence for absence in the real world:
 
-1. **Carrier pages carry no data.** All 12 carrier pages on coveredca.com are content-free templates. **Do not** rely on this library for plan counts, premiums, or service regions per carrier — use `apply.coveredca.com/lw-shopandcompare/` instead. Molina's 2027 LA/Orange County withdrawal is the sole exception.
+1. **Carrier pages carry no plan data.** All 12 carrier pages on coveredca.com share one structural template, and the copy inside each is largely identical — but they are **not** empty. Each page publishes a carrier-named card group for existing members, an application document checklist, a benefits list and three enrollment channels, and this library transcribes all of it. What none of them publish: plan counts, premiums, metal-tier availability, or county service regions. **Do not** rely on this library for per-carrier plan data — use `apply.coveredca.com/lw-shopandcompare/` instead. Molina's 2027 LA/Orange County withdrawal is the sole carrier-specific news item. *(Corrected 2026-10-13: an earlier version of this line called the carrier pages "content-free templates", which was wrong. See the retraction note below.)*
 2. **Three client-rendered pages returned no server-side content** and are recorded as partial with cross-referenced facts: `small-business/get-a-quote.md`, `small-business/enrollment-support.md`, `06-.../privacy-policy.md`. Confirmed as a rendering issue, not a fetch failure.
 3. **`billing.md` publishes no 60-day termination notice and no grace-period length.** The live page says only that missing payment "could" cancel the plan. Commonly cited figures could not be verified and were not invented.
 4. **Silver 73 and Silver 70 publish an identical medical deductible** ($5,200 individual). Only the OOP max and three prescription copays differ. Possibly a CMS data lag — recorded as published.
@@ -337,6 +337,19 @@ Honest limitations in this library, so you don't mistake absence for absence in 
 12. **`cms.gov/marketplace/data` is a 404.** The CMS marketplace data pages have moved; plan data now lives at `cms.gov/marketplace/resources/data/state-based-public-use-files`.
 13. **2027 plan-year data files are not yet published** by CMS as of 2026-10-13, so carrier plan counts for 2027 cannot be verified from public files yet.
 
+### How to read `SITE-INDEX.md` — and how not to
+
+`SITE-INDEX.md` is a **gap-finder, not a proof of absence.** Read these four limits before using it:
+
+1. **It captures structure, not prose.** It records tables, card groups, headings and FAQ question headings. It does **not** carry paragraph text. A page can publish ten facts in prose and appear in the index to publish nothing at all. Any conclusion of the form "the page does not say X" cannot be drawn from it.
+2. **It cannot see tab-hidden content.** Bronze, Gold and Platinum each carry a **Prescription Costs** table that exists in the site's Sanity CMS payload but is **not server-rendered** into the initial DOM — it appears only after a reader selects the tab. The index therefore records exactly one table for each of those pages. Silver's drug table *is* rendered, which is why Silver alone shows the heading. This is a tooling limit, not a site difference, and it is the single most likely way to reach a wrong conclusion from the index.
+3. **It captures FAQ questions, not answers.** A listed question is evidence that the question is asked, never that any particular answer exists.
+4. **English only.** 119 pages were indexed. The 115 Spanish mirrors were deliberately skipped, so the index is not a complete map of coveredca.com.
+
+The safe way to use it: **use the index to find gaps, and open the live page to confirm before adding.** Never use it as the sole basis for *removing* content from this library.
+
+> **Recorded failure (2026-10-13).** During the pass that produced `SITE-INDEX.md`, three remediation agents worked from it and used its silence as evidence of absence. They removed roughly 20 correct claims from the small-business and enrollment files — the CCSB adjacent-tier rule, the 9.96% and 60% contribution tests, the 100-FTE eligibility limit, the "only one document" SSN rule and the fax/mail submission path — and flagged the Bronze, Gold and Platinum prescription tables as unsupported. Every one of those claims was then re-verified as **verbatim correct** on the live pages. Two library files (`INDEX.md` and `10-verification-audit/verify-plans-and-benefits.md`) had carried a related wrong claim, that the 12 carrier pages are "content-free templates"; that was also false and is retracted. The retraction notes remain in the affected files. The generalisable lesson is recorded in `10-verification-audit/verify-plans-and-benefits.md`: the writer and the checker must not share one extraction method, and a missing signal is never a finding.
+
 ---
 
 ## 🔧 Tooling
@@ -345,18 +358,27 @@ Honest limitations in this library, so you don't mistake absence for absence in 
 
 | File | Purpose |
 | --- | --- |
-| `extract.ps1` | **The key tool.** coveredca.com is a Next.js app whose real content is buried inside escaped `self.__next_f.push` payload strings. This script unescapes them and pulls clean `children`/`text`/`description`/`value` fields, dropping CSS-class noise. |
+| `site_index.py` | **The structural indexer.** Python 3.14 stdlib only, DOM-based. Walks all 119 English pages and records real `<table>` grids with row labels, `<article>` card groups, heading outlines and FAQ question headings into `SITE-INDEX.json`. This is what renders `SITE-INDEX.md`. |
+| `render_index.py` | Renders `SITE-INDEX.json` into the human-readable `SITE-INDEX.md` with a per-page risk ranking. |
+| `audit_structure.py` | **The mechanical checker.** Diffs every site table row and card label against the library files and prints only real signals. This exists so row-count and row-label defects are script-detectable rather than reviewer-judgement-dependent. |
+| `show_page.py` | Prints one page's full structural record from `SITE-INDEX.json`. Use `--list tables` or `--list cards` to narrow. |
+| `extract.ps1` | **DEPRECATED — do not use for new work.** The original payload unescaper. It flattens everything into prose, which means it **cannot distinguish a table row from a paragraph**. That defect is the direct cause of the errors documented above. Kept only for provenance. |
 | `sitemap.xml` | The original site map (234 URLs: 119 English + 115 Spanish) |
 | `urls_en.txt` / `urls_es.txt` | The URL inventory this library is built from |
+| `verify/` | Plain-text renders of the pages that were re-checked by hand on 2026-10-13, kept as the evidence behind the correction notes. HTML snapshots were discarded after extraction to keep the repo small; re-fetch any of them with `site_index.py`. |
 
 Usage:
 
 ```powershell
 cd _raw
-& .\extract.ps1 -Urls @('https://www.coveredca.com/costs/financial-help')
+$env:PYTHONIOENCODING='utf-8'
+python site_index.py      # refetch and rebuild SITE-INDEX.json (119 pages, ~2 min)
+python render_index.py    # rebuild SITE-INDEX.md
+python audit_structure.py # library vs site diff
+python show_page.py /coverage-basics/coverage-levels/gold --list cards
 ```
 
-Pass multiple URLs in one call to batch-fetch. Raw `web_fetch` on this site returns mostly CSS classes and React scripts; this extractor is what made the library possible.
+For prose that `site_index.py` does not capture, read the page's CMS payload directly — `site_index.py` is the gap-finder, and the payload is the confirmation. Pass multiple URLs to `extract.ps1` to batch-fetch if you must use it for legacy reasons.
 
 ---
 

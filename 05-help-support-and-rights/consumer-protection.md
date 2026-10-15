@@ -25,8 +25,24 @@ This page explains how to avoid and report fraud against Covered California enro
 - Identity theft: **(877) ID-THEFT**.
 - If you have no bank access, contact your **health insurance company** about secure payment options.
 - Keep a record of any enroller's **name, certification number, phone number, address and organisation website**.
+- **You don't need to share personal information to learn about your health insurance options through Covered California.**
+- Be wary of **representatives requesting personal information over the phone or door-to-door (in person) without a clear reason**.
 
 ## Details
+
+### Facts and Scams (site table)
+
+The page publishes a two-column table pairing a **Fact** with the matching **Scam**.
+
+| Fact | Scam |
+| --- | --- |
+| CoveredCA.com is the official website and the only place online to enroll in a Covered California health plan. | A website asks you to enter personal information to enroll, but it isn't the official Covered California site. |
+| Monthly premiums are paid directly to your health insurance company or to Covered California Licensed Insurance Agent. | A website asks you to enter your confidential information to make a payment but isn't an official site. |
+| Enrollment help from Covered California is always free. | A representative charges a fee to help you enroll. |
+| Covered California certified representatives never ask for cash payments. | A representative asks to be paid in cash. |
+| **You don't need to share your personal information in order to learn about your health insurance options through Covered California.** | **Representatives requesting your personal information over the phone or door-to-door without a clear reason.** |
+| There are no criminal penalties for not having health insurance. There is a financial penalty in California. Covered California and its partners will never pressure you to buy a plan. | A salesperson says you will go to jail if you don't buy insurance, or they offer a one-time-only special discount. |
+| Medicare recipients do not need to take action to keep their insurance because of the Affordable Care Act. | A caller requests your Social Security number and personal information to continue Medicare eligibility. |
 
 ### Before You Enroll
 

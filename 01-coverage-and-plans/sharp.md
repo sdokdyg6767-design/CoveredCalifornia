@@ -15,7 +15,7 @@ The Sharp Health Plan carrier page on Covered California is a short marketing an
 - Page statement: "Enrolling in a Sharp Health Plan plan through Covered California could help you save on your health coverage costs."
 - Benefits listed as "Included in every plan": Free Annual Wellness Exam; Pre-Existing Condition Coverage; Mental Health Care; Prescription Drug Coverage; ER and Hospitalization Coverage; Maternity and Newborn Care; Free Cancer Screenings; Option to Add Dental and Vision.
 - Switching guidance: "Cancel your current plan after enrolling through Covered California."
-- "In most cases, your accumulated deductible and out-of-pocket maximum will carry over, but you should confirm with Sharp Health Plan before you switch."
+- "In most cases, your accumulated deductible and out-of-pocket maximum will carry over, but you should confirm with Sharp before you switch." As printed on the page.
 - What you'll need to apply: employer and income information; Social Security Numbers for applicants who have them; federal tax information for applicants who file taxes; immigration documents for non-citizens.
 - Enrollment: apply online in about 30 minutes, apply with a certified enroller, or apply by phone; "Each option is free and confidential."
 - Covered California Service Center: (800) 300-1506; TTY (888) 889-4500. Monday to Friday 8 a.m. to 6 p.m.; closed weekends.
@@ -35,7 +35,9 @@ The Sharp Health Plan carrier page on Covered California is a short marketing an
 
 ### Things to Consider
 
-"If you already have a Sharp Health Plan plan: Cancel your current plan after enrolling through Covered California. In most cases, your accumulated deductible and out-of-pocket maximum will carry over, but you should confirm with Sharp Health Plan before you switch. It helps to have your current plan details ready when shopping for a similar plan here."
+Card label as published: "If you're already insured through Sharp:"
+
+"If you're already insured through Sharp: Cancel your current plan after enrolling through Covered California. In most cases, your accumulated deductible and out-of-pocket maximum will carry over, but you should confirm with Sharp before you switch. It helps to have your current plan details ready when shopping for a similar plan here."
 
 ### What You'll Need to Apply
 

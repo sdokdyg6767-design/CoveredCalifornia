@@ -43,7 +43,9 @@ A new agency must appoint an **Authorized Signer or Agency Manager** to initiate
 - All business submitted to CCSB
 - The management of all agents using that agency's **Tax ID**
 
-**Downline agents** — agents who are employed by an agency — certify under an existing certified agency to manage small-business enrollments. Before a downline can enroll, the agency must either **be in the process of becoming certified or already certified**.
+**Downline agents**, or agents who are employed by an agency, certify under an existing certified agency to manage small-business enrollments. Before a downline can enroll, the agency must either **be in the process of becoming certified or already certified**.
+
+> Source note: the site publishes these two items as cards labelled **"Agency Certification"** and **"Downline Agent Certification"** under the heading "Choose Your Certification Path."
 
 ### Agreements and compliance
 

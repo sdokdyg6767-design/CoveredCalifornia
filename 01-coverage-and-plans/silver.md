@@ -11,6 +11,7 @@ Silver is the middle coverage level among Covered California's plans: the monthl
 ## Key Facts
 
 - "A Silver plan covers about 70 percent of your medical costs, and you pay up to 30 percent."
+- The page carries a **plan-type card group (HMO / PPO / EPO)** under the heading "Plan types: HMO, PPO and EPO"; transcribed below under "Plan Types: HMO, PPO and EPO".
 - Enhanced Silver plans "can cover even more — up to 94 percent" depending on income and household size.
 - Two kinds of help: premium help ("Most people qualify for Silver plans, including Silver 70, that lower what you pay each month") and cost-sharing help ("Included only with Enhanced Silver plans (73, 87 and 94)").
 - "Anyone can choose a Silver 70 plan." Assistance rises with lower income: "some with Silver 73, more with 87, most with 94."
@@ -41,6 +42,14 @@ You may want to consider other coverage levels if you:
 - Use your plan often and want the lowest costs for care, even with a higher premium.
 
 ### Plan Types: HMO, PPO and EPO
+
+The page presents a plan-type card group with these three cards. Transcribed verbatim:
+
+- **HMO Plans** — "Only covers in-network care, except for emergencies"; "Need a referral to see a specialist"; "Usually the lowest monthly premium"
+- **PPO Plans** — "See doctors in or out of the network"; "No referral needed to see a specialist"; "Higher monthly premium than HMO or EPO"
+- **EPO Plans** — "Only covers in-network care, except for emergencies"; "No referral needed to see a specialist"; "Costs usually land between HMO and PPO"
+
+Note the site's wording for the EPO cost position on this page: costs "usually **land** between HMO and PPO". (The overview page at `/coverage-basics/coverage-levels` uses "**fall**" instead.)
 
 | Plan type | Full name | Character | Key rules | Best for |
 | --- | --- | --- | --- | --- |
@@ -78,6 +87,8 @@ You may want to consider other coverage levels if you:
 | Preferred (Tier 2) | $60 | $55 | $25 | $10 |
 | Non-preferred (Tier 3) | $90 | $85 | $45 | $15 |
 | Specialty (Tier 4) | 20% up to $250 | 20% up to $250 | 15% up to $150 | 10% up to $150 |
+
+Both Silver tables were re-transcribed row by row from the structural site index on 2026-10-13. The index records the Silver page as having exactly two tables: "Care Costs" at 11 rows by 5 columns (header "Service / Silver 70 / Silver 73 / Silver 87 / Silver 94") and "Prescription Costs" at 6 rows by 5 columns (same four variant columns). All 11 care-cost rows and all 6 prescription rows are present above, in site order, with matching values. No rows in this file are absent from the site index.
 
 ### You Might Pay Even Less for Silver
 

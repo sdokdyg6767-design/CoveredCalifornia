@@ -11,6 +11,7 @@ Bronze is the most affordable of Covered California's four standard coverage lev
 ## Key Facts
 
 - "On average, your health insurance company pays about 60 percent of covered medical expenses, and you pay up to 40 percent."
+- The page carries a **plan-type card group (HMO / PPO / EPO)** under the heading "Plan types: HMO, PPO and EPO"; transcribed below under "Plan Types: HMO, PPO and EPO".
 - Two Bronze types: **Standard Bronze** and **High Deductible (HDHP) Bronze**. "They cost about the same each month but work differently when you use care."
 - Free preventive care "is covered from the first day your plan begins" and there is "no deductible to meet first" for preventive care.
 - "As of 2026, all Bronze plans work with a Health Savings Account (HSA)."
@@ -56,9 +57,15 @@ You may want to consider other coverage levels if you:
 | Deductible (individual) | Medical: $5,800; Pharmacy: $450 | Medical + pharmacy (one combined deductible): $7,200 |
 | Deductible (family) | Medical: $11,600; Pharmacy: $900 | Medical + pharmacy (one combined deductible): $14,400 |
 
+All six rows above are transcribed from the Bronze page's only `<table>`, which the structural site index records as 6 rows by 3 columns with the header "Standard Bronze" / "HDHP Bronze". In the site markup the Standard Bronze deductible cells carry a combined amount plus the inline labels "Medical:" and "Pharmacy:" (individual: $5,800 and $450; family: $11,600 and $900), and the HDHP Bronze cells read "$7,200 Medical + pharmacy (One combined deductible)" and "$14,400 Medical + pharmacy (One combined deductible)".
+
 Footnote ¹: "The first three non-preventive doctor, specialist and mental health visits are a copay with no deductible. After three visits, you pay full cost until the deductible is met."
 
 The page notes: "For exact costs, including premiums, use Shop and Compare to see plan-specific details."
+
+> **Correction (2026-10-13) — why only one of this page's three tables appears in `SITE-INDEX.md`.** The Bronze page renders a tab strip reading **Plan Costs | What You Pay for Care | Prescription Costs**. Only the first tab's table is server-rendered into the initial DOM, so the structural site index records exactly one table — the six-row Plan Costs grid above. The other two tables live in the page's Sanity CMS payload and appear only after a reader selects their tab. Their absence from the index is therefore not evidence of absence from the page.
+>
+> An intermediate draft of this file wrongly flagged the "What You'll Pay for Care" and "Prescription Costs" tables as "unverified against the current structural index" on that basis. **That flag is retracted.** Both tables have now been re-verified directly against `https://www.coveredca.com/coverage-basics/coverage-levels/bronze` on 2026-10-13 by reading the payload. Every value in both tables matched what is reproduced below: the Standard Bronze pharmacy deductible figures are stored with a **doubled dollar sign** in the payload (`$$450`, `$$900`, `$$20`), a typo in Covered California's content; the HDHP Bronze cells read "None" with the separate line "Prescriptions count toward the one integrated deductible ($7,200)" / "($14,400)"; and the Tier 2, 3 and 4 Standard Bronze cells read "Full cost before deductible; 40% after, capped at $500 per prescription". No figure in either table was changed.
 
 ### What You'll Pay for Care
 
@@ -89,6 +96,14 @@ The page notes: "For exact costs, including premiums, use Shop and Compare to se
 "Not sure which tier your medication is in? Each health plan has its own list. Check your plan's drug list (formulary) in Shop and Compare or on the insurance company's site."
 
 ### Plan Types: HMO, PPO and EPO
+
+The page presents a plan-type card group with these three cards. Transcribed verbatim:
+
+- **HMO Plans** — "Only covers in-network care, except for emergencies"; "Need a referral to see a specialist"; "Usually the lowest monthly premium"
+- **PPO Plans** — "See doctors in or out of the network"; "No referral needed to see a specialist"; "Higher monthly premium than HMO or EPO"
+- **EPO Plans** — "Only covers in-network care, except for emergencies"; "No referral needed to see a specialist"; "Costs usually land between HMO and PPO"
+
+Note the site's wording for the EPO cost position on this page: costs "usually **land** between HMO and PPO". (The overview page at `/coverage-basics/coverage-levels` uses "**fall**" instead.)
 
 | Plan type | Full name | Character | Key rules | Best for |
 | --- | --- | --- | --- | --- |

@@ -12,6 +12,7 @@ Covered California offers five coverage levels: Bronze, Silver, Gold, Platinum, 
 
 - Covered California plans come in five coverage levels: Bronze, Silver, Gold, Platinum and the minimum coverage plan.
 - "All levels include the same essential health benefits."
+- After the coverage level, the page presents a **plan-type card group (HMO / PPO / EPO)**, which is covered in detail below under "Plan Types: HMO, PPO and EPO".
 - Cost-sharing rule of thumb: "Lower monthly premium, pay more when you get care." / "Higher monthly premium, so you pay less when you get care."
 - Bronze: plan covers 60% of average annual cost, you pay 40%, preventive care free.
 - Silver: plan covers 70-94% of average annual cost, you pay 6-30%, preventive care free. Footnote: "Silver coverage level depends on your income and household size."
@@ -66,7 +67,15 @@ Selecting the middle answers on both questions produces a recommendation to expl
 | --- | --- | --- | --- | --- |
 | HMO | Health maintenance organization | Lower cost, more structure | Only covers in-network care, except for emergencies; need a referral to see a specialist; usually the lowest monthly premium | Lower costs, with a primary doctor managing your care |
 | PPO | Preferred provider organization | More choice, higher cost | See doctors in or out of the network; no referral needed to see a specialist; higher monthly premium than HMO or EPO | Flexibility to choose your own doctors and hospitals |
-| EPO | Exclusive provider organization | Part HMO, part PPO | Only covers in-network care, except for emergencies; no referral needed to see a specialist; costs usually land between HMO and PPO | Lower costs without needing referrals |
+| EPO | Exclusive provider organization | Part HMO, part PPO | Only covers in-network care, except for emergencies; no referral needed to see a specialist; costs usually fall between HMO and PPO | Lower costs without needing referrals |
+
+The three "Key rules" entries above are transcribed verbatim from the page's plan-type card group, which publishes exactly these three cards:
+
+- **HMO Plans** — "Only covers in-network care, except for emergencies"; "Need a referral to see a specialist"; "Usually the lowest monthly premium"
+- **PPO Plans** — "See doctors in or out of the network"; "No referral needed to see a specialist"; "Higher monthly premium than HMO or EPO"
+- **EPO Plans** — "Only covers in-network care, except for emergencies"; "No referral needed to see a specialist"; "Costs usually fall between HMO and PPO"
+
+> **Correction (2026-10-13):** The EPO bullet on this page reads "Costs usually **fall** between HMO and PPO". An earlier draft of this file transcribed it as "Costs usually **land** between HMO and PPO", which is the wording used on the four individual tier pages (Bronze, Silver, Gold, Platinum) but not on this overview page. Corrected above.
 
 ### What Every Plan Covers
 

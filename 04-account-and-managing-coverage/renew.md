@@ -20,6 +20,7 @@ Renewal opens each October, ahead of open enrollment, and Covered California not
 - For Covered California, **some renewals are automatic** — follow the instructions in your renewal notice.
 - Update your estimated yearly income before renewing to see whether your **financial help** or **program eligibility** changed.
 - Pay any required premium to keep coverage active.
+- "What to Review" is published as three cards: **Household and Contact Information**, **Income and Financial Help**, and **Plan Options**.
 
 ## Details
 
@@ -29,38 +30,46 @@ Renewal opens in October. When it is time, Covered California sends you a notice
 
 ### What to Review
 
-**Household and contact information**
+**Household and Contact Information** (card)
 
-- Confirm your address, phone number and email are up to date.
+- Confirm that your address, phone number and email are up to date.
 - Add anyone who joined your household.
 - Remove anyone who moved out or is no longer a dependent.
-- Changes to your household may affect eligibility and financial help.
 
-**Income and financial help**
+Changes to your household may affect eligibility and financial help.
 
-- Keep your plan or choose a new one.
-- During renewal you can keep your current health or dental plan, or choose a different plan that better fits your needs and budget.
+**Income and Financial Help** (card)
+
+- Financial help changed
+- Program eligibility changed
+
+Update your estimated yearly income before renewing to see whether your financial help or program eligibility changed. Keeping your current health or dental plan, or choosing a different plan that better fits your needs and budget, are both permitted during renewal.
+
 - **If you do nothing, you will be re-enrolled into your current plan within 30 days of the renewal deadline, using the most recent household and income information on file.**
 - If that information has changed, update it in your account — using outdated information can affect your financial help and your taxes.
 - Your account or renewal notice has your deadline and next steps, and will tell you if your current plan is no longer available.
 
+**Plan Options** (card)
+
+When comparing plans, check whether:
+
+- Your doctors and hospitals are in network
+- Your prescriptions are covered
+- The costs fit your budget
+
 ### Compare Plans
 
-Plans and prices can change each year. Use the Shop and Compare Tool to review options before renewing. When comparing, check whether:
-
-- Your doctors and hospitals are in network.
-- Your prescriptions are covered.
-- The costs fit your budget.
+Plans and prices can change each year. Use the Shop and Compare Tool to review options before renewing.
 
 All Covered California plans cover the same essential health benefits. The main difference is how much you pay each month and how much you pay when you use care.
 
 ### Covered California and Medi-Cal Renewals Are Different
 
-| Dimension | Covered California | Medi-Cal |
+| Renewal Topic | Covered California | Medi-Cal |
 | --- | --- | --- |
-| Timing | Each October during the renewal period | Happens throughout the year based on your Medi-Cal anniversary date |
-| Notification | Covered California sends renewal information or account notices | Your county may contact you if information is needed |
-| What you do | Review your application, compare options, keep or change your plan | Follow the instructions in your renewal notice; some renewals are automatic |
+| When it happens | Each October during the renewal period | Happens throughout the year based on your Medi-Cal anniversary date |
+| Who contacts you | Covered California sends renewal information or account notices | Your county may contact you if information is needed |
+| What to do | Review your application, compare options, keep or change your plan | Follow the instructions in your renewal notice; some renewals are automatic |
 
 ### Financial Help at Renewal
 
